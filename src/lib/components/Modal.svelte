@@ -3,6 +3,7 @@
 	export let modalStyle;
 	export let modalTitle;
 	export let modalText;
+	export let modalLink;
 	export let modalID;
 	// export let style;
 </script>
@@ -12,7 +13,7 @@
 <!-- Put this part before </body> tag -->
 
 {#if modalStyle === 'modal-link'}
-	<div class="modal" id="my-modal-2">
+	<div class="modal" id={modalID}>
 		<a href="#" class="bg-modal" />
 		<div class="modal-box">
 			<h3 class="text-lg font-bold">{modalTitle}</h3>
@@ -20,7 +21,7 @@
 				{modalText}
 			</p>
 			<div class="modal-action">
-				<a href="#" class="btn">Yay!</a>
+				<a href="#" class="btn">Close</a>
 			</div>
 		</div>
 	</div>

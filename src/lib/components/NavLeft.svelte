@@ -18,7 +18,7 @@
 	<NavLeftLink IconTest="Home" text="about" link="#my-modal-2" />
 
 	<Modal
-		modalTtle="Modal Title"
+		modalTitle="Modal Title"
 		modalText="This is a single block of text"
 		modalStyle="modal-link"
 		modalID="my-modal-2"
@@ -27,7 +27,7 @@
 	<label for="my-modal-4" class="btn">open modal</label>
 
 	<Modal
-		modalTtle="Modal Title"
+		modalTitle="Modal Title"
 		modalText="This is a single block of text"
 		modalStyle="modal-bottom"
 		modalID="my-modal-4"

@@ -30,7 +30,7 @@
 </script>
 
 <li class="flex-auto bg-white">
-	<a href={link}>
+	<a href={link} to={link}>
 		<div
 			class="sidebarLink flex items-center justify-center rounded-full p-3.5
 text-xl desktop:justify-start desktop:gap-3.5"
