@@ -20,6 +20,7 @@
 			<p class="py-4">
 				{modalText}
 			</p>
+			<slot />
 			<div class="modal-action">
 				<a href="#" class="btn">Close</a>
 			</div>
