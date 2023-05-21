@@ -1,0 +1,5 @@
+<h1>Welcome to SvelteKit</h1>
+<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<!-- The button to open modal -->
+<!-- The button to open modal -->
+<label for="my-modal-3" class="btn">open modal</label>
